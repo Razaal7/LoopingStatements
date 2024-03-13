@@ -1,0 +1,27 @@
+package loopingStatements;
+
+import java.util.Scanner;
+
+public class FactorialCalculation {
+
+        public static void main(String[] args) {
+
+                        int factNum =1,i;
+
+                        Scanner inp = new Scanner(System.in);
+                        System.out.println("enter a number");
+                        int num = inp.nextInt();
+
+                        if(num>1) {
+                                for(i=1;i<=num;i++)
+                                        factNum = factNum*i;
+                                System.out.println("the fact of the entered number is"+" "+ factNum);
+                        }
+                        else
+                                System.out.println(1);
+
+                // TODO Auto-generated method stub
+
+        }
+
+}
